@@ -1,4 +1,4 @@
-class enterprise-ssh ( $rootenabled=yes ) {
+class enterprise-ssh ( $rootenabled = "yes" ) {
 
   package { 'openssh-server':
     ensure => installed,
